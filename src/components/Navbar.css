@@ -1,0 +1,28 @@
+.navbar_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navlink_specific{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration:none ;
+    font-size: 1.68rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+
+.navlink_specific:focus{
+    color: brown;
+    font-weight: bolder;
+}
+
+.background{
+   background-color: rgb(160, 163, 163);
+}
+
+.border{
+    border-bottom: 3px solid black;
+}

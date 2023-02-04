@@ -1,0 +1,16 @@
+.text_align_heading{
+    text-align: center;
+}
+
+.Siren_boldenes{
+    font-size: 2.2em;
+    font-weight: bolder;
+
+}
+
+.the_rotation{
+    transform: rotate(90deg);
+    font-size: 1.72em;
+    color: blue;
+    direction: rtl
+}
