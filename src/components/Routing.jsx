@@ -12,7 +12,7 @@ const Routing = (props) => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<Home item = {props.array} />}></Route>
         <Route path="/bollywood" element={<Bollywood  item = {props.array}/>}></Route>
         <Route path="/hollywood" element={<Hollywood />}></Route>
         <Route path="/Technolgy" element={<Technology />}></Route>

@@ -8,7 +8,7 @@ const OnClick = () => {
   return (
     <>
         <div className='flex'><img src={prop.state.src} alt="" /></div>
-        <Link to='/bollywood'><button>Go back</button></Link>
+        <Link to='/'><button>Go back</button></Link>
     </>
   )
 }

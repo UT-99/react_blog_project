@@ -1,0 +1,59 @@
+.home_first-flex{    
+    width: 70vw;
+    padding-left: 15vw;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 420px
+  
+}
+
+.left_flex_div{
+   padding: 10px;
+    width:65%;
+    height: 100%;
+    
+    
+} 
+
+.borderRaduis{
+    border-radius: 12px;
+}
+
+.right-flex_div{
+    padding: 10px;
+    flex-direction: column;
+    width: 35%;    
+    display: flex;
+    height: 100%;
+    
+}
+
+.width{
+    width: 100%;    
+}
+
+.inerMargin{
+    margin: 10px;
+}
+
+.internalstylesforimnages{
+    width: inherit;    
+    height:inherit
+
+}
+.theLatest{
+    padding-left: 15vw;
+   
+}
+
+.flextwo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.flexTwoItmes{
+    width: 30%;
+}
