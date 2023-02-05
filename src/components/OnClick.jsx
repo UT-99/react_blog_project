@@ -17,11 +17,11 @@ const OnClick = () => {
         </div>
         <h3>{imagetitle}</h3>
         <Link to={"/" + category}>
-          <button>Go back</button>
+          <button title={"Explore more" + category + " movies"}>Go back</button>
         </Link>
-
-        <Link to='/'>
-          <button>Go Home</button>
+        <pre> </pre>
+        <Link to="/">
+          <button title="Click Here to go home page">Go Home</button>
         </Link>
       </center>
     </>
