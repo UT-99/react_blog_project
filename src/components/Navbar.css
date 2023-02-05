@@ -15,8 +15,9 @@
 }
 
 .navlink_specific:focus{
-    color: brown;
+    color: rgb(44, 28, 28);
     font-weight: bolder;
+    font-size: xx-large;
 }
 
 .background{
@@ -25,4 +26,17 @@
 
 .border{
     border-bottom: 3px solid black;
+}
+
+@media screen and (min-width:180px) and (max-width:680px){
+
+    .navbar_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: .89em
+    }
+
+
 }

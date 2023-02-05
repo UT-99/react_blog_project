@@ -11,8 +11,8 @@
 }
 
 .the_rotation{
-    transform: rotate(20deg);
+    transform: rotate(-90deg);
     font-size: 1.72em;
     color: blue;
-    direction: rtl
+    
 }

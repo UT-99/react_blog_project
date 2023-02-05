@@ -14,10 +14,10 @@ const Routing = (props) => {
       <Routes>
         <Route path="/" element={<Home item = {props.array} />}></Route>
         <Route path="/bollywood" element={<Bollywood  item = {props.array}/>}></Route>
-        <Route path="/hollywood" element={<Hollywood />}></Route>
-        <Route path="/Technolgy" element={<Technology />}></Route>
-        <Route path="/Food" element={<Food />}></Route>
-        <Route path="/Fitness" element={<Fitness />}></Route>
+        <Route path="/hollywood" element={<Hollywood   item = {props.array}/>}></Route>
+        <Route path="/Technology" element={<Technology  item = {props.array}/>}></Route>
+        <Route path="/Food" element={<Food item = {props.array} />}></Route>
+        <Route path="/Fitness" element={<Fitness item = {props.array} />}></Route>
         <Route path="/OnClickOfImage" element={<OnClick />}></Route>
       </Routes>
     </>
