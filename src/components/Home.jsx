@@ -63,8 +63,52 @@ const Home = (props) => {
         </div>
       </div>
 
-      <h2 className="theLatest"> Latest Articles</h2>
+      <div className="flexthree">
+        <h2 className=""> Latest Articles</h2>
+        <h2 style={{ textAlign: "center" }}> Top Posts</h2>
+      </div>
 
+      <div className="thirdDivHomeFlexColumnWiseContainer">
+        {props.item
+          .filter((e) => e.category === "mix")
+          .map((e) => (
+            <div className="box_shadow_forImagesLatestpost">
+              <div className="thirdDivHomeFlexColumnWiseItems">
+                <img src={e.img} className="borderRaduis imageSize"></img>
+                <div>
+                  <hr />
+                </div>
+                <div className="thirdDivHomeFlexColumnWiseItemsSecondPartDiv">
+                  <h3>{e.title}</h3>
+                  <p className="descriptionForHomePageDiv">
+                    {e.description.slice(0, 120)}
+                  </p>
+                </div>
+              </div>
+              <hr className="horizontalruleInsideLatestPost" />
+              <br />
+            </div>
+          ))}
+      </div>
+
+      <div className="Adverstiments">Adverstisement</div>
+
+      <h2 className="lateststreis">Latest Stories </h2>
+      <hr className="hrRule" />
+      <div className="latestStoriesFlexContainer">
+        {props.item
+          .filter((element) => element.category === "footer1")
+          .map((ele) => (
+            <div className="latestStoriesFlexContainerItmes">
+             <img src={ele.img}alt="" className="imageIndiseLateststories" />
+             <h4 className="titleForLatestStoreis">{ele.title}</h4>
+
+
+
+
+            </div>
+          ))}
+      </div>
     </>
   );
 };
