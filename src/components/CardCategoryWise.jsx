@@ -28,8 +28,11 @@ const CardCategoryWise = ({ img, title, desc, cate }) => {
 
           
         </div> */}
-        <div >
-          <div className="mainDivForAnyCategoryContainer">
+        <div>
+          <div
+            className="mainDivForAnyCategoryContainer"
+            title="Click Here to read full article"
+          >
             <div>
               <img src={img} alt="" className="imageSize" />
             </div>
@@ -38,8 +41,6 @@ const CardCategoryWise = ({ img, title, desc, cate }) => {
               <p className="descriptionforeachmovie">{desc}</p>
             </div>
           </div>
-
-          
         </div>
         <br />
         <br />

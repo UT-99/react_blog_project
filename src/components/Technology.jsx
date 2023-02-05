@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./OnClick.css";
 import CardCategoryWise from "./CardCategoryWise";
 import "./Bollywood.css";
-import './CardCategory.css'
+import "./CardCategory.css";
 import CardRight from "./CardRight";
 
 const Technology = (props) => {
@@ -18,6 +18,7 @@ const Technology = (props) => {
         <div className="mainDivForAnyCategoryContainerItemsLeft">
           {bollywoodFilms.map((ele) => (
             <CardCategoryWise
+              key={ele.id}
               img={ele.img}
               title={ele.title}
               desc={ele.description.slice(0, 134)}
@@ -25,15 +26,16 @@ const Technology = (props) => {
             />
           ))}
         </div>
-
-      
 
         <div className="mainDivForAnyCategoryContainerItemsRight">
           <h2>Top Posts </h2>
-          <div><hr className="topmostHrRule" /></div>
-          
+          <div>
+            <hr className="topmostHrRule" />
+          </div>
+
           {bollywoodFilms.map((ele) => (
             <CardRight
+              key={ele.id}
               img={ele.img}
               title={ele.title}
               desc={ele.description.slice(0, 134)}
@@ -41,7 +43,6 @@ const Technology = (props) => {
             />
           ))}
         </div>
-        
       </div>
     </div>
   );

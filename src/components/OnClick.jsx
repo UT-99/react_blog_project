@@ -16,8 +16,12 @@ const OnClick = () => {
           <img src={imagesrc} alt="" className="imageSizeOnCLick" />
         </div>
         <h3>{imagetitle}</h3>
-        <Link to={'/'+category}>
+        <Link to={"/" + category}>
           <button>Go back</button>
+        </Link>
+
+        <Link to='/'>
+          <button>Go Home</button>
         </Link>
       </center>
     </>

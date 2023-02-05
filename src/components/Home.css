@@ -1,158 +1,148 @@
-.home_first-flex{    
-    width: 70vw;
-    padding-left: 15vw;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: row;
-    height: 420px
-  
+.home_first-flex {
+  width: 70vw;
+  padding-left: 15vw;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 420px;
 }
 
-.left_flex_div{
-   padding: 10px;
-    width:65%;
-    height: 100%;
-    
-    
-} 
-
-.borderRaduis{
-    border-radius: 12px;
+.left_flex_div {
+  padding: 10px;
+  width: 65%;
+  height: 100%;
 }
 
-.right-flex_div{
-    padding: 10px;
-    flex-direction: column;
-    width: 35%;    
-    display: flex;
-    height: 100%;
-    
+.borderRaduis {
+  border-radius: 12px;
 }
 
-.width{
-    width: 100%;    
+.right-flex_div {
+  padding: 10px;
+  flex-direction: column;
+  width: 35%;
+  display: flex;
+  height: 100%;
 }
 
-.inerMargin{
-    margin: 10px;
+.width {
+  width: 100%;
 }
 
-.internalstylesforimnages{
-    width: inherit;    
-    height:inherit
-
-}
-.theLatest{
-    padding-left: 15vw;
-   
+.inerMargin {
+  margin: 10px;
 }
 
-.flextwo{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;    
-    justify-content: center;
+.internalstylesforimnages {
+  width: inherit;
+  height: inherit;
+}
+.theLatest {
+  padding-left: 15vw;
 }
 
-.flexTwoItmes{
-    width: 30%;
+.flextwo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.flexthree{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;    
-    justify-content: space-around;
+.flexTwoItmes {
+  width: 30%;
 }
 
-.thirdDivHomeFlexColumnWiseContainer{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-    justify-content: center;
-    margin-left: 20vw;
-
+.flexthree {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.thirdDivHomeFlexColumnWiseItems{
-    display: flex;
-    flex-direction: row;
-    height: 350px;
-   
+.thirdDivHomeFlexColumnWiseContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  justify-content: center;
+  margin-left: 20vw;
 }
 
-.imageSize{
-    width: 50%;
+.thirdDivHomeFlexColumnWiseItems {
+  display: flex;
+  flex-direction: row;
+  height: 350px;
 }
 
-.thirdDivHomeFlexColumnWiseItemsSecondPartDiv{
-    display: flex;
-    flex-direction: column;
-    padding: 2vw;
+.imageSize {
+  width: 50%;
 }
 
-.horizontalruleInsideLatestPost{
-    border: 2px solid black;
-    color: black;
+.thirdDivHomeFlexColumnWiseItemsSecondPartDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
 }
 
-.box_shadow_forImagesLatestpost:hover{
-    box-shadow: 2px 2px 3px solid black;
+.horizontalruleInsideLatestPost {
+  border: 2px solid black;
+  color: black;
 }
 
-.Adverstiments{
-    height: 40vh;
-    width: 50vw;
-    margin: 0 25vw;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+.box_shadow_forImagesLatestpost:hover {
+  box-shadow: 2px 2px 3px solid black;
 }
 
-.Adverstiments:hover{
-    background:linear-gradient(to left , pink , skyblue , lightgrey , silver);
-    color:darkred;
-
+.Adverstiments {
+  height: 40vh;
+  width: 50vw;
+  margin: 0 25vw;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-.descriptionForHomePageDiv{
-    text-align: "start" ;
-    font-size: 0.8em;
+.Adverstiments:hover {
+  background: linear-gradient(to left, pink, skyblue, lightgrey, silver);
+  color: darkred;
 }
 
-.lateststreis{
-    margin-left: 15vw;
+.descriptionForHomePageDiv {
+  text-align: "start";
+  font-size: 0.8em;
 }
 
-.hrRule{
-    width: 70vw;
-    margin-left: 15vw;
-    color: black;
-    border: 2px solid black ;
+.lateststreis {
+  margin-left: 15vw;
 }
 
-
-.latestStoriesFlexContainer{
-    width: 70vw;
-    margin-left: 15vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.hrRule {
+  width: 70vw;
+  margin-left: 15vw;
+  color: black;
+  border: 2px solid black;
 }
 
-.latestStoriesFlexContainerItmes{
-    display: flex;
-    flex-direction: column;
+.latestStoriesFlexContainer {
+  width: 70vw;
+  margin-left: 15vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.imageIndiseLateststories{
-    width: 18vw;
-    height: 26em;
-    border-radius: 12px;
+.latestStoriesFlexContainerItmes {
+  display: flex;
+  flex-direction: column;
 }
-.titleForLatestStoreis{
-    text-align: center;
-    font-size: 0.93em;
+
+.imageIndiseLateststories {
+  width: 18vw;
+  height: 26em;
+  border-radius: 12px;
+}
+.titleForLatestStoreis {
+  text-align: center;
+  font-size: 0.93em;
 }

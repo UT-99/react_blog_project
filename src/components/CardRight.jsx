@@ -28,20 +28,23 @@ const CardRight = ({ img, title, desc, cate }) => {
 
           
         </div> */}
-        <div  className="outermainDivForAnyCategoryContainerCardRight">
-          <div className="mainDivForAnyCategoryContainerCardRight">
+        <div className="outermainDivForAnyCategoryContainerCardRight">
+          <div
+            className="mainDivForAnyCategoryContainerCardRight"
+            title="Click Here to read full article"
+          >
             <div>
               <img src={img} alt="" className="imageSizeCardright" />
             </div>
             <div className="flexColumnForEachCard">
-              <p className="TitleForEachMoviesForCard" title="Click Here To Read full article">{title}</p>
-             
+              <p
+                className="TitleForEachMoviesForCard"
+                title="Click Here To Read full article"
+              >
+                {title}
+              </p>
             </div>
           </div>
-
-         
-
-          
         </div>
         <br />
         <br />

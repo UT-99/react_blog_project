@@ -6,7 +6,7 @@ import Card from "./Card";
 const Home = (props) => {
   return (
     <>
-      <div className="home_first-flex">
+      <div className="home_first-flex" key="Home.1">
         <div className="left_flex_div">
           <img
             src="https://images.unsplash.com/photo-1675084184839-bb084eadd9d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -100,12 +100,8 @@ const Home = (props) => {
           .filter((element) => element.category === "footer1")
           .map((ele) => (
             <div className="latestStoriesFlexContainerItmes">
-             <img src={ele.img}alt="" className="imageIndiseLateststories" />
-             <h4 className="titleForLatestStoreis">{ele.title}</h4>
-
-
-
-
+              <img src={ele.img} alt="" className="imageIndiseLateststories" />
+              <h4 className="titleForLatestStoreis">{ele.title}</h4>
             </div>
           ))}
       </div>
