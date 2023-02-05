@@ -17,7 +17,7 @@ const OnClick = () => {
         </div>
         <h3>{imagetitle}</h3>
         <Link to={"/" + category}>
-          <button title={"Explore more" + category + " movies"}>Go back</button>
+          <button title={"Explore more " + category + " movies"}>Go back</button>
         </Link>
         <pre> </pre>
         <Link to="/">
