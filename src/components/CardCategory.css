@@ -55,3 +55,38 @@
     text-decoration: none;
     color: black;
 } 
+
+
+@media screen and (min-width:180px) and (min-width:180px){
+    .mainDivForAnyCategoryContainerItemsLeft{
+        width: 100%;
+        
+        
+    } 
+
+    .mainDivForAnyCategoryContainerItemsRight{
+        width: 100%;
+        
+        
+    }
+
+    .TitleForEachMovies:hover{
+        font-size: x-large;
+        color: rgb(75, 22, 23);
+        text-align: left;
+    }
+   
+    
+    
+    .TitleForEachMovies:hover{
+        text-align: center;
+        text-shadow: 2px 2px 8px black;
+    } 
+
+    .mainDivForAnyCategoryContainer:hover{
+        box-shadow: 4px 4px 6px rgb(44, 31, 31), -4px -4px 6px rgb(39, 17, 17);
+    }
+    
+    
+    
+}
