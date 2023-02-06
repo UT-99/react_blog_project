@@ -34,7 +34,7 @@ const CardCategoryWise = ({ img, title, desc, cate }) => {
             title="Click Here to read full article"
           >
             <div>
-              <img src={img} alt="" className="imageSize" />
+              <img src={img} alt="Error !!!!!" className="imageSize" />
             </div>
             <div className="flexColumnForEachCard">
               <h3 className="TitleForEachMovies">{title}</h3>
