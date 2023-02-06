@@ -15,7 +15,7 @@ const Home = (props) => {
             className="borderRaduis"
           />
         </div>
-        <div className="right-flex_div">
+        <div className="right-flex_div" key="Home.2">
           <img
             src="https://images.unsplash.com/photo-1674856320941-7e442d7c4799?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI4fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt=""
@@ -25,7 +25,6 @@ const Home = (props) => {
           <img
             src="https://images.unsplash.com/photo-1674500021669-27da4b40772a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY3fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt=""
-            srcset=""
             className="borderRaduis"
           />
         </div>
@@ -33,7 +32,9 @@ const Home = (props) => {
 
       <br />
 
-      <h2 className="theLatest">The Latest</h2>
+      <h2 className="theLatest" key="Home.3">
+        The Latest
+      </h2>
       <hr className="hrLine" />
       <br />
 
@@ -42,7 +43,12 @@ const Home = (props) => {
           {props.item
             .filter((e) => e.category === "bollywood")
             .map((e) => (
-              <Card url={e.img} desc={e.description} title={e.title} />
+              <Card
+                url={e.img}
+                desc={e.description}
+                title={e.title}
+                key={e.id}
+              />
             ))}
         </div>
 
@@ -50,7 +56,12 @@ const Home = (props) => {
           {props.item
             .filter((e) => e.category === "technology")
             .map((e) => (
-              <Card url={e.img} desc={e.description} title={e.title} />
+              <Card
+                url={e.img}
+                desc={e.description}
+                title={e.title}
+                key={e.id}
+              />
             ))}
         </div>
 
@@ -58,7 +69,12 @@ const Home = (props) => {
           {props.item
             .filter((e) => e.category === "food")
             .map((e) => (
-              <Card url={e.img} desc={e.description} title={e.title} />
+              <Card
+                url={e.img}
+                desc={e.description}
+                title={e.title}
+                key={e.id}
+              />
             ))}
         </div>
       </div>
@@ -72,7 +88,7 @@ const Home = (props) => {
         {props.item
           .filter((e) => e.category === "mix")
           .map((e) => (
-            <div className="box_shadow_forImagesLatestpost">
+            <div className="box_shadow_forImagesLatestpost" key={e.id}>
               <div className="thirdDivHomeFlexColumnWiseItems">
                 <img src={e.img} className="borderRaduis imageSize"></img>
                 <div>
@@ -99,7 +115,7 @@ const Home = (props) => {
         {props.item
           .filter((element) => element.category === "footer1")
           .map((ele) => (
-            <div className="latestStoriesFlexContainerItmes">
+            <div className="latestStoriesFlexContainerItmes" key={ele.id}>
               <img src={ele.img} alt="" className="imageIndiseLateststories" />
               <h4 className="titleForLatestStoreis">{ele.title}</h4>
             </div>
