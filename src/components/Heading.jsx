@@ -4,7 +4,7 @@ import "./Heading.css";
 const Heading = () => {
   return (
     <div className="text_align_heading">
-      <span className="the_rotation">The</span>
+      <div className="the_rotation" >The</div>
       <span className="Siren_boldenes"> Siren</span>
     </div>
   );
