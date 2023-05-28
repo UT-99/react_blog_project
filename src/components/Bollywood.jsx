@@ -20,7 +20,7 @@ const Bollywood = (props) => {
               key={ele.id}
               img={ele.img}
               title={ele.title}
-              desc={ele.description.slice(0, 134)}
+              desc={ele.description.slice(0, 330)}
               cate={ele.category}
             />
           ))}
@@ -37,7 +37,7 @@ const Bollywood = (props) => {
               key={ele.id}
               img={ele.img}
               title={ele.title}
-              desc={ele.description.slice(0, 134)}
+              desc={ele.description.slice(0,210)}
               cate={ele.category}
             />
           ))}

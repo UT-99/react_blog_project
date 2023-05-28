@@ -37,7 +37,7 @@
   background-color: black;
 }
 
-@media screen and (min-width: 80px) and (max-width: 780px) {
+@media screen and (min-width: 80px) and (max-width: 1080px) {
   .bollywoodDisplyayContainer {
     display: flex;
     flex-direction: column;

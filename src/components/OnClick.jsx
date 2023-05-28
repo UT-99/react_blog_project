@@ -6,7 +6,7 @@ import { Link, useLocation } from "react-router-dom";
 const OnClick = () => {
   const prop = useLocation();
   const imagesrc = prop.state.imgageUrl;
-  const imageDscription = prop.state.imageDescription.slice(0, 160);
+  const imageDscription = prop.state.imageDescription//.slice(0, 320);
   const imagetitle = prop.state.imagetitle;
   const category = prop.state.category;
 
